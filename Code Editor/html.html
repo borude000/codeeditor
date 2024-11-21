@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Code Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="editor-section">
+            <button class="tab">HTML</button>
+            <textarea id="htmlCode" placeholder="Enter HTML Code Here..."></textarea>
+        </div>
+        <div class="editor-section">
+            <button class="tab">CSS</button>
+            <textarea id="cssCode" placeholder="Enter CSS Code Here..."></textarea>
+        </div>
+        <div class="editor-section">
+            <button class="tab">JS</button>
+            <textarea id="jsCode" placeholder="Enter JS Code Here..."></textarea>
+        </div>
+        <div class="editor-section">
+            <button class="tab">Output</button>
+            <iframe id="output" class="output"></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
